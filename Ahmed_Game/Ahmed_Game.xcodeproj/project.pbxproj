@@ -14,8 +14,11 @@
 		4312503F21905F8100FE930C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4312503D21905F8100FE930C /* LaunchScreen.storyboard */; };
 		4312504A21905F8100FE930C /* Ahmed_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312504921905F8100FE930C /* Ahmed_GameTests.swift */; };
 		4312505521905F8100FE930C /* Ahmed_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312505421905F8100FE930C /* Ahmed_GameUITests.swift */; };
-		4312506521906A2900FE930C /* Mew.png in Resources */ = {isa = PBXBuildFile; fileRef = 4312506421906A2900FE930C /* Mew.png */; };
 		4312506921906B9400FE930C /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312506821906B9400FE930C /* Movement.swift */; };
+		43F34F3F21C3D82C00C74C87 /* Mewtwo1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43F34F3C21C3D82C00C74C87 /* Mewtwo1.gif */; };
+		43F34F4021C3D82C00C74C87 /* Mewtwo2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43F34F3D21C3D82C00C74C87 /* Mewtwo2.gif */; };
+		43F34F4121C3D82C00C74C87 /* Mewtwo3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43F34F3E21C3D82C00C74C87 /* Mewtwo3.gif */; };
+		43F34F4321C3DD4400C74C87 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F34F4221C3DD4400C74C87 /* Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +52,11 @@
 		4312505021905F8100FE930C /* Ahmed_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ahmed_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4312505421905F8100FE930C /* Ahmed_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahmed_GameUITests.swift; sourceTree = "<group>"; };
 		4312505621905F8100FE930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4312506421906A2900FE930C /* Mew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mew.png; path = ../../Mew.png; sourceTree = "<group>"; };
 		4312506821906B9400FE930C /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movement.swift; path = ../Movement.swift; sourceTree = "<group>"; };
+		43F34F3C21C3D82C00C74C87 /* Mewtwo1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Mewtwo1.gif; path = "Game images/Mewtwo1.gif"; sourceTree = SOURCE_ROOT; };
+		43F34F3D21C3D82C00C74C87 /* Mewtwo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Mewtwo2.gif; path = "Game images/Mewtwo2.gif"; sourceTree = SOURCE_ROOT; };
+		43F34F3E21C3D82C00C74C87 /* Mewtwo3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Mewtwo3.gif; path = "Game images/Mewtwo3.gif"; sourceTree = SOURCE_ROOT; };
+		43F34F4221C3DD4400C74C87 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = "Game images/Background.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				4312503421905F8100FE930C /* AppDelegate.swift */,
-				4312506421906A2900FE930C /* Mew.png */,
 				4312506821906B9400FE930C /* Movement.swift */,
 				4312503621905F8100FE930C /* ViewController.swift */,
 				4312503821905F8100FE930C /* Main.storyboard */,
+				43F34F4221C3DD4400C74C87 /* Background.png */,
+				43F34F3C21C3D82C00C74C87 /* Mewtwo1.gif */,
+				43F34F3D21C3D82C00C74C87 /* Mewtwo2.gif */,
+				43F34F3E21C3D82C00C74C87 /* Mewtwo3.gif */,
 				4312503B21905F8100FE930C /* Assets.xcassets */,
 				4312503D21905F8100FE930C /* LaunchScreen.storyboard */,
 				4312504021905F8100FE930C /* Info.plist */,
@@ -240,8 +249,11 @@
 			files = (
 				4312503F21905F8100FE930C /* LaunchScreen.storyboard in Resources */,
 				4312503C21905F8100FE930C /* Assets.xcassets in Resources */,
+				43F34F4021C3D82C00C74C87 /* Mewtwo2.gif in Resources */,
+				43F34F4321C3DD4400C74C87 /* Background.png in Resources */,
 				4312503A21905F8100FE930C /* Main.storyboard in Resources */,
-				4312506521906A2900FE930C /* Mew.png in Resources */,
+				43F34F3F21C3D82C00C74C87 /* Mewtwo1.gif in Resources */,
+				43F34F4121C3D82C00C74C87 /* Mewtwo3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +527,7 @@
 				4312505B21905F8100FE930C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4312505C21905F8100FE930C /* Build configuration list for PBXNativeTarget "Ahmed_GameTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				4312505E21905F8100FE930C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4312505F21905F8100FE930C /* Build configuration list for PBXNativeTarget "Ahmed_GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +545,7 @@
 				4312506121905F8100FE930C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
